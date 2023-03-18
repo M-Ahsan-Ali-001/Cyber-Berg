@@ -1,0 +1,276 @@
+
+    <html>    
+        <head>
+            <title>
+                CyberBerg
+            </title>
+            <meta content="width=device-width, initial-scale=1" name="viewport" />
+      
+       
+       
+            <link   rel="stylesheet" href="CSS/Style.css">
+       
+       
+            <script async src="JS/DateTime.js"></script> 
+            <script async src="JS/Display.js"></script> 
+            <script async src="JS/TextOnly.js"></script> 
+            <script async src="JS/DarkMode.js"></script> 
+            <script async src="JS/ScrollTo.js"></script> 
+            <script async src="JS/MobileMenu.js"></script> 
+            <script async src="JS/BatteryOptimized.js"></script>  
+            
+    
+           
+        </head>
+
+
+       <body  >
+      
+    <div id="top" >
+        <ul id="top-list">
+            <li id="date"></li>
+            </ul>
+
+            <ul id="top-list">
+                <li >Facebook </li>
+                <li >Twitter </li>
+                <li >instagram </li>
+                </ul>
+            
+
+                
+
+        </div>
+        <div id="Web-logo">
+            <p >Cyber<Span id="logo-half">Berg</Span></p>
+        </div>
+        <div id="nav-mob">
+            <h1>Cyber<Span id="logo-half-mob">Berg</Span>
+            
+                <div id="display-items">
+                    <ul>
+                        <li onclick="Scroller('hero-sec') ">Home</li>
+                        <li onclick="Scroller('newss') ">News</li>
+                        <li onclick="Scroller('attacked') ">Attack info</li>
+                        <li onclick="Scroller('pr') " >Precuations</li>
+                        <li onclick="Scroller('cn') ">Conclusions</li>
+                        <li  class="drk-mode" onclick="DarkMode()">Dark Mode</li>
+                        <li  id="text-mode" class="txt-mode" onclick="TextOnly()" >Text Mode</li>
+                        <li   onclick="BatteryOptimzer()">Battery Optimizer</li>
+    
+                    </ul>
+                </div>
+            </h1>
+            <div id="btn-drop" >
+            <div style="margin: 11;">
+
+                
+                <span onclick="MobileMenu()" style=" font-size: 39px;">&#x2634;
+                </span>
+            </div>
+               
+            </div>
+        </div>
+        
+        <div id="nav-bar">
+            <ul> 
+                <li id="home" onclick="ScrollTo('home'), Scroller('top')"><div><span>Home</span></div></li>
+                <li id="news" onclick="ScrollTo('news'), Scroller('newss') "><div><span>News</span></div></li>
+                <li id="attack"  onclick="ScrollTo('attack'), Scroller('attacked') "><div><span>Attack info</span></div></li>
+               
+                <li id="preca"  onclick="ScrollTo('preca'), Scroller('pr') "><div><span>Precautions</span></div></li>
+                <li id="conclusion"  onclick="ScrollTo('conclusion'), Scroller('cn') "><div><span>Conclusions</span></div></li>
+                <li style="margin:auto; margin-right: 3%; margin-bottom: 0%;"><div id="dropdown">
+                    <button id="dropbtn" onclick="displayButton()">Toggler
+                        <span style="font-weight: 900;" > &#x2335;</span>
+                    </button>
+                    <div id="dropdown-content">
+                        <button class="drk-mode" onclick="DarkMode()" >Dark Mode</button>
+                        <!--<button >Battery Saver</button>-->
+                        <button id="text-mode" class="txt-mode" onclick="TextOnly()" >Text Mode</button>
+                        <button   onclick="BatteryOptimzer()" >Battery Optimizer</button>
+                    </div>
+                </div></li> 
+
+
+            </ul>
+        
+
+            </div>
+            <div id="hero-sec" onclick="Close()">
+                <div id = main>
+                    <img src="Assets/main.jpg"/>
+                    <div id="main-content">
+                      <div>
+                        <div id="box">
+                            <div id="text-box" >
+                               <p> Steam Hacked </p> 
+                            </div>
+                            
+                            <div id="atk-date">
+                                <p >  November 11, 2011</p>
+                            </div>
+                        
+                        </div>
+                        <p id="para-main">Steam, the popular gaming platform, experienced a 
+                            security breach that left many users vulnerable to hacking and fraud.</p>
+
+                        </div>
+                      
+                    </div>
+
+                </div>
+            </div>
+            <div id="blog" onclick="Close()">
+                <div class="intro" id="intro"  onscroll="Test()">
+                   <div   id="line">
+
+                   </div>
+                   <div id="newss"> 
+                       <div  class="text" id="text">
+                    News
+                      </div>
+                   </div>
+
+                </div>
+                <div id ="para-blog">
+                    <div id="para-1">
+                        <p id ="para">
+                            In 2011, Steam, the popular gaming platform, experienced a
+                             security breach that left many users vulnerable to hacking and fraud. 
+                             The breach compromised user account information, including usernames, 
+                             encrypted passwords, email addresses, billing addresses, and possibly credit 
+                             card information. This unfortunate incident highlights the importance of taking 
+                             online security 
+                            seriously and being vigilant when it comes to protecting personal information.
+
+
+                        </p>
+                    </div>
+                   <div id="bg-img">
+                    <img src="Assets/systemHacked.jpg"/>
+                   </div>
+
+
+                </div>
+
+                <div class="intro" id="intro">
+                    <div   id="line">
+ 
+                    </div>
+                    <div id="attacked">
+                      <div class="text" id="text" >
+                         Attack information
+                        </div>
+                    </div>
+ 
+                 </div>
+
+                 <div id ="para-blog">
+                    <div id="img-2">
+                        <img src="Assets/steam support.png"/>
+                       </div>
+                    <div id ="para-2">
+                        <p id ="parab">
+                             A group of hackers gained unauthorized access to some
+                             Steam user accounts. They did this by exploiting a security
+                              vulnerability in the Steam forums. The vulnerability allowed
+                               the hackers to access 
+                            a database containing user account information, including usernames, 
+                            email addresses, and encrypted passwords.
+                            The hackers were then able to use a technique called 
+                            "credential stuffing" to try the stolen usernames and
+                             passwords on other websites and services.Valve, the 
+                             company behind Steam, quickly took steps to address
+                              the security vulnerability and notify affected users. 
+                              
+
+                        </p>
+                    </div>
+                  
+
+
+                </div>
+
+                <div class="intro" id="intro">
+                    <div  id="line">
+ 
+                    </div>
+                   <div id="pr"> 
+                    <div class="text" id="text">
+                     Precautions
+                    </div>
+                  </div>
+ 
+                 </div>
+                 <div id ="para-blog">
+                     <div id="para-1">
+                         <p id ="parac">
+                            If you were a user of Steam in 2011, it is crucial to take steps to protect your
+                            account from further harm.
+                             It is recommended to change your password immediately
+                               and enable two-factor authentication. It's also crucial to avoid using the same 
+                               password for multiple accounts and monitor your credit card statements for any 
+                               unauthorized charges. If you notice any suspicious activity,
+                             report it to your bank immediately to prevent further fraud.
+
+ 
+                         </p>
+                     </div>
+                    <div  id="bg">
+                     <img src="Assets/2fa.jpeg"/>
+                    </div>
+ 
+ 
+                 </div>
+
+                 <div class="intro"  id="intro">
+                    <div  id="line">
+ 
+                    </div>
+                    <div id="cn">
+                      <div class="text" id="text">
+                       Conclusions
+                      </div>
+                    </div>
+ 
+                 </div>
+
+
+                 <div id ="para-blog">
+                    <div id="para-1">
+                        <p id ="parad">In conclusion, the Steam hack of 2011 was a
+                            wake-up call for many online users to take their 
+                            online security seriously. While we cannot control 
+                            whether or not companies experience security breaches,
+                             we can take steps to protect our personal information and
+                              be vigilant for any suspicious activity. By using strong passwords, 
+                              enabling two-factor authentication, and monitoring our accounts for
+                               unusual activity, we can help prevent 
+                               hackers from accessing our sensitive information
+                                                      
+                           
+                        </p>
+                    </div>
+                  
+
+             </div><!-- //blog ends here-->
+        
+
+            
+
+
+
+
+                
+            </div>
+
+            <div id="footer">
+                <p>Copyright All Rights Reserved @ CyberBerg 2023</p>     
+                 </div>
+
+    
+    
+       </body>
+   </html>
+   

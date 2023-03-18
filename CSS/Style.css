@@ -1,0 +1,458 @@
+body{margin: auto;
+
+
+background-color:#f5f5f5 ;
+
+font-family:Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-style: normal;
+max-width: 1600px;
+
+
+
+}
+#nav-mob{
+    display: none;
+
+}
+#top{
+background-color: black;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+
+
+
+
+
+}
+
+#top-list{
+    margin: 0.5%;
+
+text-decoration: none;
+list-style: none;
+display: flex;
+flex-direction: row;
+
+color: rgba(233, 241, 247, 0.592);
+
+}
+#top-list li{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+#web-logo{
+
+
+    font-size: 34px;
+
+    margin:30px;
+    color: #ffc107;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+#web-logo p {
+    margin: 0%;
+    font-size: 67px;
+}
+
+#logo-half{
+    color: rgba(0, 0, 0, 0.468);
+    font-weight: 500;
+}
+#nav-bar{
+    background-color: black;
+    height: 65px;
+    font-size: 20px;
+    border-bottom: 1px solid #ffc107;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+
+
+}
+#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+
+
+}
+#nav-bar li{
+list-style: none;
+z-index: 1;
+}
+#nav-bar li div {
+    color: white;
+    margin: 22px;
+
+
+}
+
+#dropdown{
+    position: relative;
+    display: inline-block;
+}
+#dropbtn {
+    background-color: transparent;
+    color: white;
+    font-size: 19px;
+    border: none;
+
+
+
+    cursor: pointer;
+  }
+#dropdown-content {
+    display: none;
+    margin:0%;
+    padding: 0%;
+    position:absolute;
+    left: -85;
+
+
+
+    top: 70%;
+    min-width: 150px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+
+
+
+
+
+
+
+
+
+    background-color: #000000;
+
+  }
+
+
+
+  #dropdown:hover #dropbtn {
+   color: #ffc107;
+  }
+  #dropdown-content button {
+    color: rgb(169, 187, 13);
+
+    padding: 12px ;
+
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    background-color: #000000;
+  }
+
+#home {
+    background-color: #ffc107;
+
+}
+ #home span{
+
+    color: black;
+}
+#hero-sec{
+    width: 100%;
+    background-color: black;
+
+
+}
+#main {
+    position: relative;
+
+
+
+}
+#main img {
+   height: 60%;
+   width: 100%;
+    overflow: hidden;
+
+
+object-fit:cover;
+opacity: 0.5;
+}
+#main-content{
+  position: absolute;
+  bottom: 4%;
+  left: 20px;
+
+
+}
+#box{
+    display: flex;
+}
+#text-box {
+    text-align: center;
+    background-color:  #ffc107;
+
+    height: 40px;
+    width: 200px;
+
+    font-size: 25px;
+}
+#text-box p {
+    font-family: 'Times New Roman', Times, serif;
+
+font-weight: 600;
+margin: 0%;
+padding: 2%;
+
+}
+#atk-date {
+    margin-left: 20px;
+
+}
+#atk-date p{
+
+    margin-top: 4%;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+#para-main{
+    margin: 0%;
+    font-family: sans-serif;
+color: rgb(168, 255, 7);
+font-weight:700;
+font-size: 25px;
+max-width: 900px;
+
+
+}
+#blog{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+
+
+
+}
+#blog #intro {
+    display: flex;
+    max-width: 1200px;
+    height: 50px;
+    margin-top: 20px;
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ffc107;
+
+
+}
+#line{
+    height: 50px;
+    width: 5px;
+    background-color: #ffc107;
+}
+#Text{
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+#para-blog {
+    display: flex;
+    margin-top: 30px;
+}
+#para-blog img{
+    max-width: 500px;
+   max-height: 300px;
+    margin-left: 30px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+#para-1{
+    margin-left: 30px;
+
+
+}
+#para-1 p {
+margin-top: 1%;
+font-size: 23px;
+line-height: 35px;
+color: black;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#para-2 p {
+    margin-top: 1%;
+    font-size: 23px;
+    line-height: 35px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-right: 30px;
+    }
+#footer
+{
+    background-color: #000000;
+ border-top: 1px solid white;
+    text-align: center;
+    margin-top: 100px;
+
+
+}
+#footer p {
+color: #f5f5f5;
+
+font-size: 17px;
+margin: 10px;
+margin-bottom: 0%;
+
+}
+
+@media only screen and (max-width: 867px) {
+    #bg-img{
+     text-align: center;
+
+    }
+
+    #nav-mob{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     top: 0;
+
+
+
+
+     height: auto;
+    z-index: 1;
+
+
+     font-size: 24px;
+     color: #ffc107;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 100;
+     background-color: black;
+
+
+ position:sticky;
+ }
+
+ #display-items{
+ border-top: 1px solid #ffc107;
+     margin: 0%;
+     padding: 0%;
+     margin-top: 10;
+     align-items:center;
+     display:none;
+     font-size: 20px;
+     color: aqua;
+     transition: 0.5ms;
+     position: absolute;
+     background-color: #000000;
+
+
+     min-width: 160px;
+ }
+ #display-items ul{
+     list-style: none;
+ }
+ #display-items li{
+
+     margin: 5px;
+     border-bottom: 1px solid #ffc107;
+     margin-bottom: 20px;
+ }
+ #icon{
+     margin-right:20px;
+     margin-top: 20px;
+
+
+ }
+ #btn-drop{
+     position: relative;
+     display: inline-block;
+ }
+ #nav-mob h1{
+     margin: 10;
+
+
+ }
+ #nav-mob h1 span{
+     color: wheat
+ }
+    #img-2{  text-align: center;}
+    #bg{  text-align: center;}
+     #para-blog{
+         display: block;
+     }
+     #main img {
+         max-height: 700px;
+     }
+     #para-blog img{
+     max-width: 400px;
+     }
+     hero-sec{
+         display: none;
+     }
+     #nav-bar{
+         display: none;
+     }
+     #web-logo{
+         display: none;
+     }
+
+
+
+ }
+
+ @media only screen and (max-width: 552px) {
+     #top{
+         display: none;
+     }
+     #nav-mob{
+         display: flex;
+         background-color: #000000;
+
+         width: auto;
+     }
+     #para-blog img{
+         max-width: 300px;
+         }
+         #footer{
+             max-height: 50px;
+         }
+         #main img{
+             max-height: 350px;
+         }
+         #para-main{
+             font-size: 20px;
+         }
+         #text-box {
+             max-width: 150px;
+             max-height: 30px;
+         }
+         #text-box p{
+             font-size: 20px;
+         }
+         #atk-date p{
+             font-size: 20px;
+         }
+         #para-2{
+             margin-left: 10%;
+             margin-top: 5%;
+         }
+         #box{
+             display: block;
+
+         }
+         #atk-date{
+             margin-left: 0%;
+         }
+         #footer p {
+
+             font-size: 10px;
+
+         }
+
+ }
